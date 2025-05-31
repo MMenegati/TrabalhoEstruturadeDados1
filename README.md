@@ -124,7 +124,8 @@ Lá você verá todos os endpoints disponíveis e poderá testá-los diretamente
 **Nota sobre Embeddings**: O sistema está configurado para embeddings de `128` dimensões (definido por `K_DIMENSIONS` em [kdtree.c](kdtree.c) e [kdtree_wrapper.py](kdtree_wrapper.py)). Certifique-se de que suas listas de `embedding` sempre contenham 128 números de ponto flutuante.
 
 O arquivo `a.exe` não é diretamente utilizado pela aplicação Python/FastAPI, mas pode ser um executável de teste ou um compilador auxiliar para o código C.
-```# KD-Tree API com FastAPI
+
+# KD-Tree API com FastAPI
 
 Este projeto implementa uma KD-Tree para busca eficiente de vizinhos próximos em dados multidimensionais (embeddings) e expõe essa funcionalidade através de uma API web construída com FastAPI.
 
